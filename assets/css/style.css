@@ -94,3 +94,41 @@ body{
         width: 200px;
     }
 }
+
+@media (max-height: 650px){
+    #game__header{
+        width: 200px;
+        height: 300px;
+    }
+
+    .game__img{
+        height: 200px;
+    }
+
+    .game__title{
+        font-size: 15px;
+    }
+
+    .option{
+        width: 200px;
+    }
+}
+
+@media (max-height: 500px){
+    #game__header{
+        width: 200px;
+        height: 300px;
+    }
+
+    .game__img{
+        height: 150px;
+    }
+
+    .game__title{
+        font-size: 13px;
+    }
+
+    .option{
+        width: 200px;
+    }
+}
